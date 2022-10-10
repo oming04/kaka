@@ -10,7 +10,7 @@ def start_button(client):
     if not FORCE_SUB_CHANNEL and not FORCE_SUB_GROUP:
         buttons = [
             [
-            InlineKeyboardButton("JOIN VIP", url=f"https://t.me/vip4646"),
+            InlineKeyboardButton("JOIN VIP", url=f"https://t.me/vip_4646"),
         ],
 [
                 InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="help"),
@@ -23,7 +23,7 @@ def start_button(client):
             [
                 InlineKeyboardButton(text="JOIN", url=client.invitelink2),
 [
-            InlineKeyboardButton("JOIN VIP", url=f"https://t.me/vip4646"),
+            InlineKeyboardButton("JOIN VIP", url=f"https://t.me/vip_4646"),
         ],
             ],
             [
@@ -42,7 +42,7 @@ def start_button(client):
                 InlineKeyboardButton(text="ᴛᴜᴛᴜᴘ", callback_data="close"),
             ],
 [
-            InlineKeyboardButton("JOIN VIP", url=f"https://t.me/vip4646"),
+            InlineKeyboardButton("JOIN VIP", url=f"https://t.me/vip_4646"),
         ],
         ]
         return buttons
@@ -56,7 +56,7 @@ def start_button(client):
                 InlineKeyboardButton(text="JOIN 2", url=client.invitelink2),
             ],
 [
-            InlineKeyboardButton("JOIN VIP", url=f"https://t.me/vip4646"),
+            InlineKeyboardButton("JOIN VIP", url=f"https://t.me/vip_4646"),
         ],
             [InlineKeyboardButton(text="ᴛᴜᴛᴜᴘ", callback_data="close")],
         ]
@@ -70,7 +70,7 @@ def fsub_button(client, message):
                 InlineKeyboardButton(text="ᴊᴏɪɴ", url=client.invitelink2),
             ],
 [
-            InlineKeyboardButton("JOIN VIP", url=f"https://t.me/vip4646"),
+            InlineKeyboardButton("JOIN VIP", url=f"https://t.me/vip_4646"),
         ],
         ]
         try:
@@ -91,7 +91,7 @@ def fsub_button(client, message):
                 InlineKeyboardButton(text="ᴊᴏɪɴ", url=client.invitelink),
             ],
 [
-            InlineKeyboardButton("JOIN VIP", url=f"https://t.me/vip4646"),
+            InlineKeyboardButton("JOIN VIP", url=f"https://t.me/vip_4646"),
         ],
         ]
         try:
@@ -113,7 +113,7 @@ def fsub_button(client, message):
                 InlineKeyboardButton(text="ᴊᴏɪɴ 2", url=client.invitelink2),
             ],
 [
-            InlineKeyboardButton("JOIN VIP", url=f"https://t.me/vip4646"),
+            InlineKeyboardButton("JOIN VIP", url=f"https://t.me/vip_4646"),
         ],
         ]
         try:
